@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My Course Portfolio</title>
-    <link>http://localhost:62330/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on My Course Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:62330/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:62330/posts/about/</link>
+      <link>http://localhost:1313/posts/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62330/posts/about/</guid>
+      <guid>http://localhost:1313/posts/about/</guid>
       <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;This website is a portfolio for my course work.&lt;/p&gt;&#xA;&lt;p&gt;It brings together my assignments, reflections, and notes from 13 course sessions. I use this space to document what I work on, what I learn, and how my ideas develop over time.&lt;/p&gt;&#xA;&lt;p&gt;The purpose of the site is to create a simple overview of my progress throughout the course and present my written work in a clear way.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:62330/posts/contact/</link>
+      <link>http://localhost:1313/posts/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62330/posts/contact/</guid>
+      <guid>http://localhost:1313/posts/contact/</guid>
       <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;You can add your contact details here later.&lt;/p&gt;&#xA;&lt;p&gt;For example:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Email&lt;/li&gt;&#xA;&lt;li&gt;LinkedIn&lt;/li&gt;&#xA;&lt;li&gt;GitHub&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Expectations for the Elective Course</title>
-      <link>http://localhost:62330/posts/forventninger/</link>
+      <link>http://localhost:1313/posts/forventninger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62330/posts/forventninger/</guid>
+      <guid>http://localhost:1313/posts/forventninger/</guid>
       <description>&lt;h2 id=&#34;my-expectations&#34;&gt;My expectations&lt;/h2&gt;&#xA;&lt;p&gt;In this post, I write about my expectations for the elective course.&lt;/p&gt;&#xA;&lt;p&gt;I hope to learn new ways of working with digital tools, reflections, and creative processes. I also want to develop my understanding through the 13 course sessions and document my progress along the way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-hope-to-gain&#34;&gt;What I hope to gain&lt;/h2&gt;&#xA;&lt;p&gt;I hope this course will help me strengthen both my practical and reflective skills. I want to become better at connecting theory, ideas, and my own experiences in the assignments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Session 1</title>
-      <link>http://localhost:62330/posts/session-1/</link>
+      <link>http://localhost:1313/posts/session-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62330/posts/session-1/</guid>
+      <guid>http://localhost:1313/posts/session-1/</guid>
       <description>&lt;h2 id=&#34;topic&#34;&gt;Topic&lt;/h2&gt;&#xA;&lt;p&gt;This is my first post.&lt;/p&gt;</description>
     </item>
   </channel>

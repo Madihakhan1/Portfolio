@@ -1,69 +1,157 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
 
-theme = "blowfish" # UNCOMMENT THIS LINE
-# baseURL = "https://your_domain.com/"
-defaultContentLanguage = "en"
+colorScheme = "softpink"
+defaultAppearance = "light"
+autoSwitchAppearance = false
 
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+enableA11y = false
+enableSearch = true
+enableCodeCopy = false
+enableStructuredBreadcrumbs = false
 
-enableRobotsTXT = true
-summaryLength = 0
+replyByEmail = false
 
-buildDrafts = false
-buildFuture = false
+mainSections = ["posts"]
 
-enableEmoji = true
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
 
-# googleAnalytics = "G-XXXXXXXXX"
+hotlinkFeatureImage = false
 
-[pagination]
-  pagerSize = 100
+fingerprintAlgorithm = "sha512"
 
-[imaging]
-  anchor = 'Center'
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  author = "authors"
-  series = "series"
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  showRecentItems = 13
+  showMoreLink = true
+  showMoreLinkDest = "/posts/"
+  cardView = false
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false
+  disableHeroImageFilter = false
+
+[article]
+  showDate = false
+  showViews = false
+  showLikes = false
+  showDateOnlyInArticle = false
+  showDateUpdated = false
+  showAuthor = false
+  showHero = false
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  editAppendPath = true
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = false
+  showTableOfContents = false
+  showTaxonomies = false
+  showCategoryOnly = false
+  showAuthorsBadges = false
+  showWordCount = false
+  showZenMode = false
+
+[list]
+  showHero = false
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = false
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = false
+  orderByWeight = true
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
 
 [sitemap]
-  changefreq = 'daily'
-  filename = 'sitemap.xml'
-  priority = 0.5
+  excludedKinds = ["taxonomy", "term"]
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+[taxonomy]
+  showTermCount = true
+  showHero = false
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  cardView = false
 
-[related]
-  threshold = 0
-  toLower = false
+[term]
+  showHero = false
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
 
-    [[related.indices]]
-        name = "tags"
-        weight = 100
+[firebase]
+  # apiKey = "XXXXXX"
+  # authDomain = "XXXXXX"
+  # projectId = "XXXXXX"
+  # storageBucket = "XXXXXX"
+  # messagingSenderId = "XXXXXX"
+  # appId = "XXXXXX"
+  # measurementId = "XXXXXX"
 
-    [[related.indices]]
-        name = "categories"
-        weight = 100
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
 
-    [[related.indices]]
-        name = "series"
-        weight = 50
+[umamiAnalytics]
+  # websiteid = "ABC12345"
+  # domain = "llama.yoursite.com"
+  # dataDomains = "yoursite.com,yoursite2.com"
+  # scriptName = ""
+  # enableTrackEvent = true
 
-    [[related.indices]]
-        name = "authors"
-        weight = 20
+[selineAnalytics]
+  # token = "XXXXXX"
+  # enableTrackEvent = true
 
-    [[related.indices]]
-        name = "date"
-        weight = 10
+[buymeacoffee]
+  # identifier = ""
+  # globalWidget = true
+  # globalWidgetMessage = "Hello"
+  # globalWidgetColor = "#FFDD00"
+  # globalWidgetPosition = "right"
 
-    [[related.indices]]
-      applyFilter = false
-      name = 'fragmentrefs'
-      type = 'fragments'
-      weight = 10
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+  # fediverse = ""
+
+[rssnext]
+  # feedId = ""
+  # userId = ""
+
+[advertisement]
+  # adsense = ""

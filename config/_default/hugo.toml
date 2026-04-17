@@ -2,7 +2,7 @@
 # These options control how the theme functions and allow you to
 # customise the display of your website.
 
-colorScheme = "softpink"
+colorScheme = "princess"
 defaultAppearance = "light"
 autoSwitchAppearance = false
 

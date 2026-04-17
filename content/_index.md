@@ -1,19 +1,21 @@
 ---
-title: "Portfolio"
+title: ""
 ---
+
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 3rem;">
 
 # Madiha
 
-## Portfolio
+### Course Portfolio
 
-This website is my course portfolio.
+Assignments, reflections, and weekly notes from my course.
 
-Here I share assignments, reflections, and weekly notes from 13 course sessions. The purpose of this portfolio is to document my learning process and collect my work in one place.
+This website collects my portfolio work in one place.
 
-## About this portfolio
+</div>
 
-This site focuses on:
-- course assignments
-- reflections on what I learn
-- weekly notes and development
-- personal thoughts connected to the course
+## Portfolio sections
+
+- [AIDA Portfolio](/Portfolio/posts/01-intro-aida-portfolio/)
+- [RAG Reflection](/Portfolio/posts/02-intro-RAG-reflection/)
+- [RAG Demo](/Portfolio/posts/03-RAG-demo-reflection/)

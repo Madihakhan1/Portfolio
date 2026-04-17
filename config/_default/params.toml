@@ -1,9 +1,6 @@
 # -- Theme Options --
 # These options control how the theme functions and allow you to
 # customise the display of your website.
-#
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "princess"
 defaultAppearance = "light"
@@ -15,6 +12,8 @@ enableCodeCopy = false
 enableStructuredBreadcrumbs = false
 
 replyByEmail = false
+
+mainSections = ["posts"]
 
 disableImageOptimization = false
 disableImageOptimizationMD = false
@@ -31,17 +30,17 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layout = "basic"
 
 [footer]
-  showMenu = true
+  showMenu = false
   showCopyright = true
   showThemeAttribution = false
   showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
-  showRecent = true
-  showRecentItems = 13
-  showMoreLink = true
+  layout = "page"
+  showRecent = false
+  showRecentItems = 3
+  showMoreLink = false
   showMoreLinkDest = "/posts/"
   cardView = false
   cardViewScreenWidth = false
@@ -49,12 +48,12 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   disableHeroImageFilter = false
 
 [article]
-  showDate = true
+  showDate = false
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showHero = false
   layoutBackgroundBlur = true
   layoutBackgroundHeaderSpace = true
@@ -66,12 +65,12 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = false
   showTaxonomies = false
   showCategoryOnly = false
   showAuthorsBadges = false
-  showWordCount = true
+  showWordCount = false
   showZenMode = false
 
 [list]
@@ -79,7 +78,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layoutBackgroundBlur = true
   layoutBackgroundHeaderSpace = true
   showBreadcrumbs = false
-  showSummary = true
+  showSummary = false
   showViews = false
   showLikes = false
   showTableOfContents = false

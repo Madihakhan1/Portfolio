@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My Course Portfolio</title>
-    <link>http://localhost:1313/Portfolio/posts/</link>
+    <link>http://localhost:58532/Portfolio/posts/</link>
     <description>Recent content in Posts on My Course Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2026 Madiha</copyright>
-    <atom:link href="http://localhost:1313/Portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Intro AIDA Portfolio</title>
-      <link>http://localhost:1313/Portfolio/posts/01-intro-aida-portfolio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Portfolio/posts/01-intro-aida-portfolio/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:58532/Portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Intro RAG Reflection</title>
-      <link>http://localhost:1313/Portfolio/posts/02-intro-rag-reflection/</link>
+      <link>http://localhost:58532/Portfolio/posts/02-intro-rag-reflection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Portfolio/posts/02-intro-rag-reflection/</guid>
+      <guid>http://localhost:58532/Portfolio/posts/02-intro-rag-reflection/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>RAG Demo Reflection</title>
-      <link>http://localhost:1313/Portfolio/posts/03-rag-demo-reflection/</link>
+      <title>RAG Chatbot in Dify</title>
+      <link>http://localhost:58532/Portfolio/posts/03-rag-demo-reflection/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:58532/Portfolio/posts/03-rag-demo-reflection/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:58532/Portfolio/posts/01-intro-aida-portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Portfolio/posts/03-rag-demo-reflection/</guid>
+      <guid>http://localhost:58532/Portfolio/posts/01-intro-aida-portfolio/</guid>
       <description></description>
       
     </item>

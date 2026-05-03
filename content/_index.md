@@ -13,7 +13,7 @@ title: ""
 
   <div class="home-actions">
     {{< button href="/Portfolio/posts/" >}}Browse all posts{{< /button >}}
-    {{< button href="posts/03-RAG-demo-reflection.md" >}}Latest project{{< /button >}}
+    {{< button href="posts/05-ai-driven-api-application.md" >}}Latest project{{< /button >}}
   </div>
 
   <div class="home-chip-row">
@@ -37,5 +37,13 @@ title: ""
   <a class="portfolio-card" href='{{< ref "posts/03-RAG-demo-reflection.md" >}}'>
     <span class="portfolio-card-title">RAG Demo</span>
     <p>A summary of my Dify chatbot project and what I learned from building it.</p>
+  </a>
+  <a class="portfolio-card" href='{{< ref "posts/04-code-agents-reflection.md" >}}'>
+    <span class="portfolio-card-title">Code Agents</span>
+    <p>A short reflection on my first experiences using code agents and why prompting matters.</p>
+  </a>
+  <a class="portfolio-card" href='{{< ref "posts/05-ai-driven-api-application.md" >}}'>
+    <span class="portfolio-card-title">AI Application API</span>
+    <p>A reflection on building an AI-driven application that combines an LLM with an external API.</p>
   </a>
 </div>
